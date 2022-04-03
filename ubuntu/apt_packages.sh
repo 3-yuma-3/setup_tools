@@ -20,5 +20,6 @@ sudo apt install -y \
   vim \
   tig \
   android-tools-adb \
-  scrcpy
+  scrcpy \
+  openssh-server
 
