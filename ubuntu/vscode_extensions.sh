@@ -14,4 +14,5 @@ code --install-extension octref.vetur
 code --install-extension ms-vscode-remote.remote-ssh
 code --install-extension vscjava.vscode-java-pack
 code --install-extension Pivotal.vscode-boot-dev-pack
+code --install-extension cweijan.vscode-database-client2
 
