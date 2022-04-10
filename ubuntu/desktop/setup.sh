@@ -11,6 +11,7 @@ dir=`dirname $0`
 . ${dir}/apt_packages.sh
 
 . ${dir}/vscode_chrome.sh
+. ${dir}/awscli.sh
 . ${dir}/docker.sh
 . ${dir}/java.sh
 . ${dir}/rbenv_nodenv.sh
@@ -18,4 +19,3 @@ dir=`dirname $0`
 sudo apt autoremove -y
 
 . ${dir}/bashrc.sh
-
