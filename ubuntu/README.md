@@ -4,11 +4,12 @@
   - [新しい SSH キーを生成して ssh-agent に追加する](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - `$ cat ~/.ssh/id_ed25519.pub`
   - [GitHub アカウントへの新しい SSH キーの追加](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+- `$ git config --global user.email "you@example.com"`
+- `$ git config --global user.name "Your Name"`
 - `$ git clone git@github.com:3-yuma-3/setup_tools.git`
 - `$ cd setup_tools/ubuntu`
-- `$ cd desktop`, `$ cd wsl2`
-- `$ ./setup.sh`
+- `$ ./desktop_setup.sh` or `$ ./wsl2_setup.sh`
 - `$ exec bash -l`
-- `$ ./plugins_rbenv_nodenv.sh`
+- `$ ./shared/plugins_rbenv_nodenv.sh`
 - `$ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash`
 - `$ curl -fsSL https://github.com/nodenv/nodenv-installer/raw/master/bin/nodenv-doctor | bash`

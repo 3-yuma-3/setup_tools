@@ -8,13 +8,13 @@
 
 dir=`dirname $0`
 
-. ${dir}/apt_packages.sh
+. ${dir}/wsl2/apt_packages.sh
 
-. ${dir}/awscli.sh
-. ${dir}/docker.sh
-. ${dir}/java.sh
-. ${dir}/rbenv_nodenv.sh
+. ${dir}/shared/awscli.sh
+. ${dir}/shared/docker.sh
+. ${dir}/shared/java.sh
+. ${dir}/shared/rbenv_nodenv.sh
 
 sudo apt autoremove -y
 
-. ${dir}/bashrc.sh
+. ${dir}/shared/bashrc.sh
