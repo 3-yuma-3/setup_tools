@@ -13,3 +13,8 @@
 - `$ ./shared/plugins_rbenv_nodenv.sh`
 - `$ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash`
 - `$ curl -fsSL https://github.com/nodenv/nodenv-installer/raw/master/bin/nodenv-doctor | bash`
+- `$ nodenv install -l`
+- `$ nodenv install xxx`
+- `$ nodenv global xxx`
+- `$ npm --version`
+- `$ npm install --global yarn`
