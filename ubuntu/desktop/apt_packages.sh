@@ -21,5 +21,5 @@ sudo apt install -y \
   tig \
   android-tools-adb \
   scrcpy \
-  openssh-server
-
+  openssh-server \
+  graphviz

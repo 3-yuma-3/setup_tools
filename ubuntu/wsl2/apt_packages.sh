@@ -14,4 +14,5 @@ echo "install apt tools"
 sudo apt install -y \
   tig \
   unzip \
-  zip
+  zip \
+  graphviz
