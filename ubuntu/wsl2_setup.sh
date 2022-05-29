@@ -18,3 +18,4 @@ dir=`dirname $0`
 sudo apt autoremove -y
 
 . ${dir}/shared/bashrc.sh
+. ${dir}/shared/vimrc.sh

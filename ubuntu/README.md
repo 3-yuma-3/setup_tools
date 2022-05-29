@@ -6,6 +6,7 @@
   - [GitHub アカウントへの新しい SSH キーの追加](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 - `$ git config --global user.email "you@example.com"`
 - `$ git config --global user.name "Your Name"`
+- `$ git config --global core.editor 'vim -c "set fenc=utf-8"'`
 - `$ git clone git@github.com:3-yuma-3/setup_tools.git`
 - `$ cd setup_tools/ubuntu`
 - `$ ./desktop_setup.sh` or `$ ./wsl2_setup.sh`
@@ -13,3 +14,8 @@
 - `$ ./shared/plugins_rbenv_nodenv.sh`
 - `$ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash`
 - `$ curl -fsSL https://github.com/nodenv/nodenv-installer/raw/master/bin/nodenv-doctor | bash`
+- `$ nodenv install -l`
+- `$ nodenv install xxx`
+- `$ nodenv global xxx`
+- `$ npm --version`
+- `$ npm install --global yarn`
