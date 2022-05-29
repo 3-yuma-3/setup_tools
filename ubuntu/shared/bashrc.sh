@@ -45,5 +45,6 @@ alias gc='git checkout'
 alias gb='git branch'
 alias gba='git branch -a'
 alias gg='git grep'
+alias jupyterlab="jupyter lab --NotebookApp.token=''"
 EOS
 

@@ -19,3 +19,9 @@
 - `$ nodenv global xxx`
 - `$ npm --version`
 - `$ npm install --global yarn`
+- `$ wget https://repo.anaconda.com/archive/Anaconda3-xxxx.xx-Linux-x86_64.sh`
+  - https://repo.anaconda.com/archive/
+- `$ bash https://repo.anaconda.com/archive/Anaconda3-xxxx.xx-Linux-x86_64.sh`
+- `$ exec bash -l`
+- `$ conda --version`
+
