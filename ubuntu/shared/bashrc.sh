@@ -24,7 +24,7 @@ function promps {
   local BASE="\u@\h"
   # PS1="[\$(date +%H:%M:%S)] \${TITLEBAR}\${GREEN}\u:\${BLUE}\W\${GREEN}\\\$(parse_git_branch)\${BLUE}\\$\${WHITE} "
     # userだけを表示したい場合
-  PS1="[\$(date +%H:%M:%S)] \${GREEN}\u@\${GREEN}\h\${GREEN}\u:\${BLUE}\w\${GREEN}\\\$(parse_git_branch)\${BLUE}\\$\${WHITE} "
+  PS1="[\$(date +%H:%M:%S)] \${GREEN}\u@\${GREEN}\h\${GREEN}\u:\${BLUE}\W\${GREEN}\\\$(parse_git_branch)\${BLUE}\\$\${WHITE} "
     # user@host, フルパスを表示したい場合
     # カレントディレクトリだけを表示する場合は大文字W
 }
