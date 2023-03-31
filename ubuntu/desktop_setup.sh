@@ -15,6 +15,7 @@ dir=`dirname $0`
 . ${dir}/shared/docker.sh
 . ${dir}/shared/java.sh
 . ${dir}/shared/rbenv_nodenv.sh
+. ${dir}/shared/minikube_kubectl.sh
 
 sudo apt autoremove -y
 
