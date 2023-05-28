@@ -1,8 +1,11 @@
 #!/bin/bash
 
+ESC=$(printf '\033') # \e や \x1b または $'\e' は使用しない
+
 # customize prompt
 ## https://qiita.com/caad1229/items/6d71d84933c8a87af0c4
 ## https://gist.github.com/caad1229/f6c64ef41d58f15f5148
+printf "${ESC}[33m%s${ESC}[m\n" 'start bashrc setting'
 cat - << EOS >> ~/.bashrc
 
 # personal settings
@@ -47,4 +50,3 @@ alias gba='git branch -a'
 alias gg='git grep'
 alias jupyterlab="jupyter lab --NotebookApp.token=''"
 EOS
-

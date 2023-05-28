@@ -1,6 +1,6 @@
 # setup tools for ubuntu
 ## usage
-- `$ ssh-keygen -t ed25519 -C "your_email@example.com"`
+- `$ ssh-keygen -t ed25519 -C "key name"`
   - [新しい SSH キーを生成して ssh-agent に追加する](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - `$ cat ~/.ssh/id_ed25519.pub`
   - [GitHub アカウントへの新しい SSH キーの追加](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
@@ -19,9 +19,3 @@
 - `$ nodenv global xxx`
 - `$ npm --version`
 - `$ npm install --global yarn`
-- `$ wget https://repo.anaconda.com/archive/Anaconda3-xxxx.xx-Linux-x86_64.sh`
-  - https://repo.anaconda.com/archive/
-- `$ bash https://repo.anaconda.com/archive/Anaconda3-xxxx.xx-Linux-x86_64.sh`
-- `$ exec bash -l`
-- `$ conda --version`
-

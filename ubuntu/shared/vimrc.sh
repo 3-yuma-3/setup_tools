@@ -1,8 +1,12 @@
 #!/bin/bash
 
+ESC=$(printf '\033') # \e や \x1b または $'\e' は使用しない
+
 # customize vim
 ## https://qiita.com/iwaseasahi/items/0b2da68269397906c14c
 ## https://qiita.com/morikooooo/items/9fd41bcd8d1ce9170301
+
+printf "${ESC}[33m%s${ESC}[m\n" 'start vimrc setting'
 
 touch ~/.vimrc
 cat - << EOS >> ~/.vimrc

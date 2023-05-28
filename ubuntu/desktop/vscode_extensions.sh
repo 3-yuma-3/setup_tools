@@ -1,5 +1,8 @@
 #!/bin/bash
 
+ESC=$(printf '\033') # \e や \x1b または $'\e' は使用しない
+
+printf "${ESC}[33m%s${ESC}[m\n" 'start install vscode extensions'
 code --install-extension eamodio.gitlens
 code --install-extension donjayamanne.githistory
 code --install-extension pkief.material-icon-theme
@@ -15,4 +18,3 @@ code --install-extension ms-vscode-remote.remote-ssh
 code --install-extension vscjava.vscode-java-pack
 code --install-extension Pivotal.vscode-boot-dev-pack
 code --install-extension cweijan.vscode-database-client2
-
