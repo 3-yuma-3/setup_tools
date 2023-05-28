@@ -12,10 +12,9 @@ dir=`dirname $0`
 
 . ${dir}/desktop/vscode_chrome.sh
 . ${dir}/shared/awscli.sh
-# . ${dir}/shared/docker.sh
+. ${dir}/shared/container.sh
 . ${dir}/shared/java.sh
 . ${dir}/shared/rbenv_nodenv.sh
-# . ${dir}/shared/minikube_kubectl.sh
 
 sudo apt autoremove -y
 
