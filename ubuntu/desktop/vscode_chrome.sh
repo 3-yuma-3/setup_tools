@@ -2,9 +2,11 @@
 
 dir=`dirname $0`
 
+ESC=$(printf '\033') # \e や \x1b または $'\e' は使用しない
+
 # vscode
 ## https://code.visualstudio.com/docs/setup/linux
-echo "install vscode"
+printf "${ESC}[33m%s${ESC}[m\n" 'start install vscode'
 sudo apt install -y \
   wget \
   gpg
@@ -23,10 +25,9 @@ sudo apt install -y code
 ## https://www.ubuntuupdates.org/ppa/google_chrome
 ## https://lil.la/archives/4185
 ## https://isgs-lab.com/447/
-echo "install google chrome"
+printf "${ESC}[33m%s${ESC}[m\n" 'start install google chrome'
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 78BD65473CB3BD13 7721F63BD38B4796
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 sudo wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo apt update
 sudo apt install -y google-chrome-stable
-

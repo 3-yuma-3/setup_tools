@@ -1,3 +1,6 @@
 /aws/
 /awscliv2.sig
 /awscliv2.zip
+
+/shared/get_helm.sh
+/shared/minikube-linux-amd64
