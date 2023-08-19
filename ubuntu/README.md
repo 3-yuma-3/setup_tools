@@ -19,3 +19,20 @@
 - `$ nodenv global xxx`
 - `$ npm --version`
 - `$ npm install --global yarn`
+
+## Kali Linux
+### zshからbashに変更する
+1. `$ echo $SHELL`
+    - zshであることを確認
+2. `$ cat /etc/shells`
+    - bashのpathを確認
+3. `$ chsh kali`
+    - bashのpathを入力
+4. `$ reboot`
+5. `$ echo $SHELL`
+    - bashであることを確認
+
+### shellscriptだとなぜかコケるので手動でinstall
+1. `$ sudo apt update`
+2. `$ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin`
+3. `$ sudo systemctl enable docker --now`
